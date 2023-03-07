@@ -8,4 +8,6 @@ COPY . /experiment
 
 RUN pip install -r /experiment/requirement.txt
 
+EXPOSE 80
+
 CMD ["python", "main.py"]
