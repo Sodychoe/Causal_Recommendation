@@ -1,5 +1,7 @@
 FROM --platform=linux/amd64 jupyter/tensorflow-notebook
 
+# FROM jupyter/tensorflow=notebook
+
 WORKDIR /experiment
 
 COPY . /experiment
